@@ -1,0 +1,7 @@
+C:\Users\UPN\Desktop\T2_MANR\EJ4-EXTRA\EJ4-EXTRA\bin\Debug\EJ4-EXTRA.exe.config
+C:\Users\UPN\Desktop\T2_MANR\EJ4-EXTRA\EJ4-EXTRA\bin\Debug\EJ4-EXTRA.exe
+C:\Users\UPN\Desktop\T2_MANR\EJ4-EXTRA\EJ4-EXTRA\bin\Debug\EJ4-EXTRA.pdb
+C:\Users\UPN\Desktop\T2_MANR\EJ4-EXTRA\EJ4-EXTRA\obj\Debug\EJ4-EXTRA.csproj.AssemblyReference.cache
+C:\Users\UPN\Desktop\T2_MANR\EJ4-EXTRA\EJ4-EXTRA\obj\Debug\EJ4-EXTRA.csproj.CoreCompileInputs.cache
+C:\Users\UPN\Desktop\T2_MANR\EJ4-EXTRA\EJ4-EXTRA\obj\Debug\EJ4-EXTRA.exe
+C:\Users\UPN\Desktop\T2_MANR\EJ4-EXTRA\EJ4-EXTRA\obj\Debug\EJ4-EXTRA.pdb
