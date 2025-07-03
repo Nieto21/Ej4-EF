@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,13 +26,13 @@ namespace EJ4_EXTRA
 
         public void Registrar()
         {
-            Console.Write("Ingrese el nombre del producto: ");
+            Console.Write("NOMBRE: ");
             string nombre = Console.ReadLine();
 
-            Console.Write("Ingrese el precio del producto: ");
+            Console.Write("PRECIO: ");
             double precio = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Ingrese el stock del producto: ");
+            Console.Write("STOCK: ");
             int stock = int.Parse(Console.ReadLine());
 
             productos.Add(new Producto(nombre, precio, stock));
@@ -55,7 +55,7 @@ namespace EJ4_EXTRA
                 for (int i = 0; i < productos.Count; i++)
                 {
                     Producto p = productos[i];
-                    Console.WriteLine($"{i}. Nombre: {p.nombre}, Precio: {p.precio}, Stock: {p.stock}");
+                    Console.WriteLine($"{i}. NOMBRE: {p.nombre}, PRECIO: {p.precio}, STOCK: {p.stock}");
                 }
             }
 
@@ -68,29 +68,28 @@ namespace EJ4_EXTRA
         {
             Mostrar();
 
-            Console.Write("Ingrese el índice del producto a modificar: ");
+            Console.Write("INDICE DEL PRODUCTO A MODIFICAR: ");
             int indice = int.Parse(Console.ReadLine());
 
             if (indice >= 0 && indice < productos.Count)
             {
-                Console.Write("Nuevo nombre: ");
+                Console.Write("NUEVO NOMBRE: ");
                 productos[indice].nombre = Console.ReadLine();
 
-                Console.Write("Nuevo precio: ");
+                Console.Write("NUEVO PRECIO: ");
                 productos[indice].precio = Convert.ToDouble(Console.ReadLine());
 
-                Console.Write("Nuevo stock: ");
+                Console.Write("NUEVO STOCK: ");
                 productos[indice].stock = int.Parse(Console.ReadLine());
 
-                Console.WriteLine("\nProducto modificado correctamente.");
+                Console.WriteLine("\nMODIFICACIÓN CORRECTA c: ");
             }
             else
             {
-                Console.WriteLine("\nÍndice inválido.");
+                Console.WriteLine("\nINDICE INVALIDO.");
             }
 
             Console.WriteLine("\nPresione una tecla para continuar...");
-            Console.ReadKey();
             Console.Clear();
         }
     }
@@ -131,7 +130,6 @@ namespace EJ4_EXTRA
                     default:
                         Console.WriteLine("Opción no válida.");
                         Console.WriteLine("\nPresione una tecla para continuar...");
-                        Console.ReadKey();
                         Console.Clear();
                         break;
                 }
